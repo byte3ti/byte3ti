@@ -1,3 +1,6 @@
+body {
+  overflow-x: none;
+}
 body p {
   text-align: justify;
 }
@@ -288,7 +291,7 @@ body p {
 
 .btn-primary {
   background-color: #1d01c3;
-  transition: all 1s;
+  transition: all 2s;
   color: #fff;
   border: solid 1px transparent;
 }
@@ -316,13 +319,13 @@ body p {
   background-color: #19ff4c;
   transition: all 1s;
   color: #000;
-  border: solid 1px transparent;
+  border: none;
 }
 
 .btn-secondary:hover {
   background-color: #fff;
   color: #000;
-  border-color: transparent;
+  border-color: none;
 }
 
 .btnhoverwhite:hover {
